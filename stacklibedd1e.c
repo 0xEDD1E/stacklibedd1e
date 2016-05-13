@@ -36,5 +36,13 @@ typedef struct stack_elem_double {
  */
 int pushINT(StackINT **head, int key)
 {
+	StackINT *new = (StackINT *) malloc(sizeof(StackINT));
 
+	if (!new) return 1;
+
+	new->key = key;
+	new->next = (*head);
+	*head = new;
+
+	return 0;
 }
