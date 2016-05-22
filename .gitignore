@@ -1,0 +1,6 @@
+# ignore executables
+*.exe
+
+# ignore .idea folder
+.idea
+

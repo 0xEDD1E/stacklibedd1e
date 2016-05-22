@@ -24,7 +24,7 @@ int push(Stack **head, int pval)
 	Stack *new_Stack = (Stack *) malloc(sizeof (Stack));
 
 	if (new_Stack == NULL)
-		return 0;    // alocation failure
+		return 0;    // allocation failure
 
 	new_Stack->key = pval;
 	new_Stack->next = (*head);
