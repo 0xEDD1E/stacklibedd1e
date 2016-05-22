@@ -24,13 +24,13 @@ int push(Stack **head, int pval)
 	Stack *new_Stack = (Stack *) malloc(sizeof (Stack));
 
 	if (new_Stack == NULL)
-		return 0;    // allocation failure
+		return PUSH_FAIL;    // allocation failure
 
 	new_Stack->key = pval;
 	new_Stack->next = (*head);
 	(*head) = new_Stack;
 
-	return 1;
+	return PUSH_OK;
 }
 
 int pop(Stack **head)
