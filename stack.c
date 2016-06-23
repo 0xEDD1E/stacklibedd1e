@@ -6,7 +6,7 @@
 
 /*
 typedef struct Stack {
-	int key;					// key of the stack element
+	int key;	     // key of the stack element
 	struct Stack *next;  // next element
 } Stack;
 */
