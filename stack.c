@@ -1,7 +1,8 @@
 /**
  * Stack Implementation using a Linked List
  * Written by 0xEDD1E
- * 2016.05.21
+ * 2016.05.21 
+ * All rights reversed.
  */
 
 /*
