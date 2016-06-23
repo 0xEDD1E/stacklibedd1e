@@ -37,11 +37,11 @@ int pop(Stack **head)
 {
 	if (*head == NULL)
 		return 0;   // stack underflow, send the signal,
-                    // however 0 can't be considered as a proper signal
-                    // when the stack elements are integers (or floatings)
-                    // I can't see any other way to handle this, other than
-                    // calling fprintf(stderr,...) or exit(), which seems to be
-                    // more rough
+                // however 0 can't be considered as a proper signal
+                // when the stack elements are integers (or floatings)
+                // I can't see any other way to handle this, other than
+                // calling fprintf(stderr,...) or exit(), which seems to be
+                // more rough
 
 	int popped = (*head)->key;
 	Stack *del = (*head);
